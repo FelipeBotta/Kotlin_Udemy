@@ -13,8 +13,5 @@ class Goblin(health: Int, attack: Int, defense: Int) : Character(health, attack,
     /**
      * Representação textual do Goblin.
      */
-    override fun toString(): String {
-        // Exercicio: Como melhorar para imprimir o nome do inimigo?
-        return super.toString()
-    }
+    override fun toString(): String = "Goblin Verde"
 }

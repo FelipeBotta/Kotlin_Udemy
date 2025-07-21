@@ -13,8 +13,5 @@ class Archer(health: Int, attack: Int, defense: Int) : Character(health, attack,
     /**
      * Representação textual do Arqueiro.
      */
-    override fun toString(): String {
-        // Exercicio: Como melhorar para imprimir o nome do herói?
-        return super.toString()
-    }
+    override fun toString(): String = "Arqueiro"
 }

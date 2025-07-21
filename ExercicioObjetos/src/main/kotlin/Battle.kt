@@ -21,7 +21,7 @@ class Battle {
 
             if (!enemy.isAlive()) {
                 println("$enemy foi derrotado!")
-                // Exercicio: Se o inimigo foi derrotado, como interropter este código?
+                return
             }
 
             val damageEnemy = enemy.attack()
@@ -29,7 +29,7 @@ class Battle {
 
             if (!hero.isAlive()) {
                 println("$hero foi derrotado!")
-                // Exercicio: Se o herói foi derrotado, como interropter este código?
+                return
             }
 
             println()
